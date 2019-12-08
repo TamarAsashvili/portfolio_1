@@ -8,6 +8,5 @@
 :whale::whale::whale:
 
 :wheel_of_dharma:
-:art: :rocket:  
-:art: :rocket:  
-:art: :rocket:  
+
+:whale::whale::whale::whale::whale::whale::whale::whale::whale::whale::whale::whale::whale::whale::whale::whale::whale:
