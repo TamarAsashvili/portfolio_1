@@ -20,9 +20,12 @@
     <link rel="stylesheet" href="style.css" />
     <title>Lerning Bootstrap Theme</title>
   </head>
-  <body>
+  <body data-spy="scroll" data-target="#main-nav" id="home">
     <!--start here-->
-    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+    <nav
+      class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top"
+      id="main-nav"
+    >
       <div class="container">
         <a href="index.html" class="navbar-brand">Logo lan </a>
         <button
@@ -64,9 +67,9 @@
               </h1>
               <div class="d-flex">
                 <div class="p-4 align-self-start">
-                  <i class="fas fa-car fa-2x"></i>
+                  <i class="fas fa-heart fa-2x"></i>
                 </div>
-                <div class="p- align-self-end">
+                <div class="p-4 align-self-end">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Culpa iste blanditiis numquam soluta, quae corporis.
                 </div>
@@ -76,7 +79,7 @@
                 <div class="p-4 align-self-start">
                   <i class="fas fa-check fa-2x"></i>
                 </div>
-                <div class="p- align-self-end">
+                <div class="p-4 align-self-end">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel,
                   quidem! Aut porro incidunt ipsa necessitatibus voluptatum
                   obcaecati earum iusto facilis?
@@ -87,7 +90,7 @@
                 <div class="p-4 align-self-start">
                   <i class="fas fa-smile fa-2x"></i>
                 </div>
-                <div class="p- align-self-end">
+                <div class="p-4 align-self-end">
                   Lorem, ipsum dolor sit amet consectetur adipisicing elit.
                   Culpa iste blanditiis numquam soluta, quae corporis.lorem5
                 </div>
@@ -95,7 +98,7 @@
             </div>
 
             <div class="col-lg-4">
-              <div class="card bg-info text-center card-form">
+              <div class="card text-center card-form">
                 <div class="card-body">
                   <h3>sign up</h3>
                   <p>Lorem ipsum dolor sit amet.</p>
@@ -125,7 +128,7 @@
                     <input
                       type="submit"
                       value="Submit"
-                      class="btn btn-outline-light"
+                      class="btn btn-outline-light btn-block"
                     />
                   </form>
                 </div>
@@ -136,9 +139,274 @@
       </div>
     </header>
 
-    <footer class="bg-info navbar-expand-sm  fixed-bottom">
-      <span id="year"></span>
+    <!--Explore head-->
+
+    <section id="explore-head-section">
+      <div class="container">
+        <div class="row">
+          <!--padding in y axess it is ''py-5''-->
+          <div class="col text-center py-5">
+            <h1 class="display-4">Explore</h1>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet
+              dignissimos natus exercitationem labore vel harum deleniti rem,
+              iusto doloribus, neque fuga suscipit. Eveniet quasi aut similique,
+              veniam beatae quisquam debitis?
+            </p>
+            <a href="#" class="btn btn-outline-info">See More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Explore section-->
+    <section id="explore-section" class="bg-light text-muted py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              id="ara"
+              src="img/3.jpg"
+              alt="mounthin"
+              class="img-thumbnail mb-3 "
+            />
+          </div>
+          <div class="col-md-6">
+            <h3>Explore& Connect</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel qui
+              explicabo eos dolorum iure cum aperiam harum doloremque illo fugit
+              adipisci beatae quos, enim eum.
+            </p>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+                soluta tempora cupiditate laborios
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-smile fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+                soluta tempora cupiditate laboriosam maxime tenetur
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-heart fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+                soluta tempora cupiditate laboriosam maxime tenetur laudantium
+                quo!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Create head-->
+    <section id="create-head-section" class="bg-info">
+      <div class="container">
+        <div class="row">
+          <!--padding in y axess it is ''py-5''-->
+          <div class="col text-center py-5">
+            <h1 class="display-4">Create</h1>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet
+              dignissimos natus exercitationem labore vel harum deleniti rem,
+              iusto doloribus, neque fuga suscipit. Eveniet quasi aut similique,
+              veniam beatae quisquam debitis?
+            </p>
+            <a href="#" class="btn btn-outline-dark">See More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Create  Section-->
+    <section id="create-section" class="py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6 order-2">
+            <img
+              id="ara"
+              src="img/3.jpg"
+              alt="mounthin"
+              class="img-thumbnail mb-3 "
+            />
+          </div>
+          <div class="col-md-6 order-1">
+            <h3>Create your Passion & Connect</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel qui
+              explicabo eos dolorum iure cum aperiam harum doloremque illo fugit
+              adipisci beatae quos, enim eum.
+            </p>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+                soluta tempora cupiditate laborios
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-smile fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+                soluta tempora cupiditate laboriosam maxime tenetur
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-heart fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+                soluta tempora cupiditate laboriosam maxime tenetur laudantium
+                quo!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Share head-->
+    <section id="share-head-section" class="bg-info">
+      <div class="container">
+        <div class="row">
+          <!--padding in y axess it is ''py-5''-->
+          <div class="col text-center py-5">
+            <h1 class="display-4">Share</h1>
+            <p class="lead">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Amet
+              dignissimos natus exercitationem labore vel harum deleniti rem,
+              iusto doloribus, neque fuga suscipit. Eveniet quasi aut similique,
+              veniam beatae quisquam debitis?
+            </p>
+            <a href="#" class="btn btn-outline-dark">See More</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Share section-->
+    <section id="share-section" class="bg-light text-muted py-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-6">
+            <img
+              id="ara"
+              src="img/6.png"
+              alt="mounthin"
+              class="img-thumbnail mb-3 "
+            />
+          </div>
+          <div class="col-md-6">
+            <h3>shere what you ceate</h3>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Vel qui
+              explicabo eos dolorum iure cum aperiam harum doloremque illo fugit
+              adipisci beatae quos, enim eum.
+            </p>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-check fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+                soluta tempora cupiditate laborios
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-smile fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+                soluta tempora cupiditate laboriosam maxime tenetur
+              </div>
+            </div>
+            <div class="d-flex">
+              <div class="p-4 align-self-start">
+                <i class="fas fa-heart fa-2x"></i>
+              </div>
+              <div class="p-4 align-self-end">
+                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Modi
+                soluta tempora cupiditate laboriosam maxime tenetur laudantium
+                quo!
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!--Footer-->
+    <footer id="main-footer" class="bg-info">
+      <div class="container">
+        <div class="row">
+          <div class="col text-center py-4">
+            <h3>
+              Loop Lab
+            </h3>
+
+            <p>copyright &copy; <span id="year"></span></p>
+            <button
+              class="btn btn-outline-dark"
+              data-toggle="modal"
+              data-target="#contactModal"
+            >
+              Contact Us
+            </button>
+          </div>
+        </div>
+      </div>
     </footer>
+    <!--Contact Modal-->
+    <div class="modal fade text-dark" id="contactModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title">
+              Contact US
+            </h5>
+            <button class="close" data-dismis="modal">
+              <span>&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            <form>
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" />
+              </div>
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control"></textarea>
+              </div>
+            </form>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-info btn-block">submit</button>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script
       src="http://code.jquery.com/jquery-3.4.1.min.js"
@@ -163,6 +431,9 @@
     <script>
       //Get current year for the copyright
       $('#year').text(new Date().getFullYear());
+
+      //Initialize scrollspy on navbar to heilighted button where is directed
+      $('body').scrollspy({ target: '#main-nav' });
     </script>
   </body>
 </html>

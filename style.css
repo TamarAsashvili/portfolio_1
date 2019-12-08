@@ -13,7 +13,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
-  min-height: 700px;
+  min-height: 800px;
 }
 
 #home-section .dark-overlay {
@@ -21,6 +21,39 @@ body {
   top: 0;
   left: 0;
   width: 100%;
-  min-height: 700px;
+  min-height: 800px;
   background: rgba(0, 0, 0, 0.7);
+}
+
+#home-section .home-inner {
+  padding: 150px;
+}
+
+#home-section .card-form {
+  opacity: 0.8;
+  background: #008ed6;
+}
+
+#home-section .fas,
+#create-section .fas {
+  color: #008ed6;
+  background: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#explore-section .fas,
+#share-section .fas {
+  background: #008ed6;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#ara {
+  clip-path: polygon(25% 0%, 100% 0%, 75% 100%, 0% 100%);
+}
+
+footer {
+  background: #008ed6;
 }
